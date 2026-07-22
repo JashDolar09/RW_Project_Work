@@ -18,8 +18,6 @@ while True:
 
     choice = input("Enter your choice: ")
 
-    # ---------------- Add Student ----------------
-
     if choice == "1":
 
         sid = input("Student ID: ")
@@ -40,16 +38,14 @@ while True:
 
         student_data[sid] = student
 
-        info = (sid, dob)     # Tuple
+        info = (sid, dob)     # tuple
 
         students.append(info) # List
 
         for s in subject_list:
-            subjects_set.add(s.strip())   # Set
+            subjects_set.add(s.strip())   # set
 
         print("\nStudent Added Successfully!")
-
-    # ---------------- Display Students ----------------
 
     elif choice == "2":
 
@@ -73,8 +69,6 @@ while True:
                 print("Subjects   :", ", ".join(student_data[sid]["subjects"]))
                 print("-----------------------------")
 
-    # ---------------- Update ----------------
-
     elif choice == "3":
 
         sid = input("Enter Student ID: ")
@@ -94,8 +88,6 @@ while True:
 
         else:
             print("Student not found.")
-
-    # ---------------- Delete ----------------
 
     elif choice == "4":
 
@@ -117,8 +109,6 @@ while True:
         if found == False:
             print("Student not found.")
 
-    # ---------------- Display Subjects ----------------
-
     elif choice == "5":
 
         print("\nSubjects Offered")
@@ -126,12 +116,9 @@ while True:
         for s in subjects_set:
             print(s)
 
-    # ---------------- Exit ----------------
-
     elif choice == "6":
 
         print("\nThank you for using Student Data Organizer.")
-        print("Goodbye!")
         break
 
     else:

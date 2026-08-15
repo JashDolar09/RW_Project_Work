@@ -1,145 +1,124 @@
-# Personal Journal Manager
+# 📔 Personal Journal Manager
 
-## Project
+> **A simple Python-based journal application for creating, viewing, searching, and managing personal journal entries.**
 
-File Operator
+---
 
-## Screenshots
+## 🧩 Project
 
-### Output 1
+**Project Name:** File Operator  
+**Application:** Personal Journal Manager  
+**Language:** Python  
+**File Type:** `.txt`
+
+---
+
+## 📸 Project Screenshots
+
+### 📝 Output 1 — Adding Journal Entries
 
 ![Output 1](Output/Output1.png)
 
-### Output 2
+### 📖 Output 2 — Viewing & Searching Entries
 
 ![Output 2](Output/Output2.png)
 
-### Output 3
+### 🗑️ Output 3 — Deleting & Handling Errors
 
 ![Output 3](Output/Output3.png)
 
 ---
 
-## Features
+## ✨ Features
 
-- Add a New Journal Entry
-- View All Journal Entries
-- Search Journal Entries
-- Delete All Journal Entries
-- Timestamp for Each Entry
-- File Creation and Management
-- Error Handling
-- Menu Driven Program
-- Exit the Program
+| Feature | Description |
+|---|---|
+| 📝 Add Entry | Add a new journal entry with a timestamp |
+| 📖 View Entries | Display all saved journal entries |
+| 🔎 Search | Find entries using a keyword or date |
+| 🗑️ Delete | Delete all journal entries with confirmation |
+| ⚠️ Error Handling | Handles common file-related errors |
+| 🖥️ Menu System | Simple menu-driven interface |
+| 🚪 Exit | Safely exit the application |
 
 ---
 
-## OOP Concepts Used
+## 🏗️ OOP Structure
 
-### Class
+The application is built using a simple Object-Oriented Programming structure.
 
-The project uses a `JournalManager` class to manage journal operations.
+### `JournalManager`
 
-### Object
+The `JournalManager` class controls all journal operations.
 
-An object of the `JournalManager` class is created:
+```python
+class JournalManager:
+```
+
+The class contains the following methods:
+
+```text
+add_entry()
+view_entries()
+search_entry()
+delete_entries()
+```
+
+An object is created using:
 
 ```python
 journal = JournalManager()
 ```
 
-### Instance Methods
-
-The class contains methods for:
-
-- Adding entries
-- Viewing entries
-- Searching entries
-- Deleting entries
-
 ---
 
-## File Handling
+## 📂 File Handling
 
-The program stores journal entries in:
+All journal entries are stored in:
 
 ```text
 journal.txt
 ```
 
-The following file modes are demonstrated:
+The project demonstrates the four important Python file modes:
 
-### `x` Mode
+### `x` — Create
 
-Creates a new journal file when it does not already exist.
+Creates a new file when the journal does not already exist.
 
-### `a` Mode
+```python
+open(self.file, "x")
+```
 
-Adds new journal entries to an existing file without removing previous entries.
+### `a` — Append
 
-### `r` Mode
+Adds new entries without deleting existing entries.
 
-Reads journal entries from the file.
+```python
+open(self.file, "a")
+```
 
-### `w` Mode
+### `r` — Read
 
-Clears the contents of the file before it is deleted.
+Reads existing journal entries.
 
----
+```python
+open(self.file, "r")
+```
 
-## Exception Handling
+### `w` — Write
 
-The program handles common file-related errors.
+Clears the file before the journal is deleted.
 
-### FileNotFoundError
-
-Used when the journal file does not exist while trying to read it.
-
-### PermissionError
-
-Used when the program does not have permission to access the file.
-
-### FileExistsError
-
-Used when trying to create a file with `x` mode that already exists.
-
----
-
-## Concepts Used
-
-- Python Classes
-- Objects
-- Instance Methods
-- Constructor
-- File Handling
-- Read Mode (`r`)
-- Write Mode (`w`)
-- Append Mode (`a`)
-- Create Mode (`x`)
-- `FileNotFoundError`
-- `FileExistsError`
-- `PermissionError`
-- Exception Handling
-- `datetime`
-- `os` Module
-- `while` Loop
-- `if-elif-else`
-- User Input
-- Menu Driven Program
-
----
-
-## How to Run
-
-```bash
-python Journal_Manager.py
+```python
+open(self.file, "w")
 ```
 
 ---
 
-## Journal Entry Format
+## 🕒 Journal Entry Format
 
-Each journal entry contains a timestamp and the user's text.
+Every entry automatically receives the current date and time.
 
 Example:
 
@@ -147,11 +126,49 @@ Example:
 [2026-08-15 10:30:20] Today I learned Python file handling.
 ```
 
+This is created using:
+
+```python
+datetime.now()
+```
+
 ---
 
-## Menu Options
+## 🛡️ Exception Handling
+
+The program uses exception handling to prevent unexpected crashes.
+
+### FileNotFoundError
+
+Handles situations where `journal.txt` does not exist.
+
+### FileExistsError
+
+Handles situations where the file already exists while using `x` mode.
+
+### PermissionError
+
+Handles situations where the program does not have permission to access the file.
+
+Example:
+
+```python
+try:
+    # File operation
+except FileNotFoundError:
+    # Error message
+```
+
+---
+
+## 🎯 Program Menu
 
 ```text
+======================================
+Welcome to Personal Journal Manager!
+======================================
+
+========== MENU ==========
 1. Add a New Entry
 2. View All Entries
 3. Search for an Entry
@@ -159,40 +176,115 @@ Example:
 5. Exit
 ```
 
-### Add a New Entry
+---
 
-Allows the user to enter a journal entry with the current date and time.
+## 🔄 How the Program Works
 
-### View All Entries
-
-Displays all saved journal entries.
-
-### Search for an Entry
-
-Searches entries using a keyword or date.
-
-### Delete All Entries
-
-Asks for confirmation and deletes the journal file.
-
-### Exit
-
-Closes the Personal Journal Manager.
+```text
+             ┌───────────────────┐
+             │  Start Program    │
+             └─────────┬─────────┘
+                       ↓
+             ┌───────────────────┐
+             │    Main Menu      │
+             └─────────┬─────────┘
+                       ↓
+       ┌───────────────┼───────────────┐
+       ↓               ↓               ↓
+   Add Entry       View/Search      Delete
+       │               │               │
+       ↓               ↓               ↓
+   journal.txt     journal.txt     Delete File
+       │               │               │
+       └───────────────┼───────────────┘
+                       ↓
+                  Exit Program
+```
 
 ---
 
-## Assumptions
+## 🧠 Concepts Demonstrated
 
-- Journal entries are stored only in a `.txt` file.
+- Python OOP
+- Class
+- Object
+- Constructor
+- Instance Methods
+- File Handling
+- `r` Read Mode
+- `w` Write Mode
+- `a` Append Mode
+- `x` Create Mode
+- Exception Handling
+- `FileNotFoundError`
+- `FileExistsError`
+- `PermissionError`
+- `datetime`
+- `os` Module
+- User Input
+- `while` Loop
+- Conditional Statements
+- Menu-Driven Programming
+
+---
+
+## ▶️ How to Run
+
+Open the project folder in the terminal and run:
+
+```bash
+python Journal_Manager.py
+```
+
+The program will display the Personal Journal Manager menu.
+
+---
+
+## 📁 Project Structure
+
+```text
+Project/
+│
+├── Journal_Manager.py
+├── README.md
+│
+├── journal.txt
+│
+└── Output/
+    ├── Output1.png
+    ├── Output2.png
+    └── Output3.png
+```
+
+> `journal.txt` is created automatically when the first journal entry is added.
+
+---
+
+## 📌 Assumptions
+
+- The application works only with text files.
 - The journal file is named `journal.txt`.
-- Empty journal entries are not allowed.
-- Each entry automatically receives a timestamp.
+- Empty entries are not allowed.
+- Each entry receives an automatic timestamp.
 - The user must confirm before deleting all entries.
-- The search is not case-sensitive.
-- The program creates the journal file when the first entry is added.
+- Search is case-insensitive.
+- The journal file is created automatically when the first entry is added.
+- The application is designed as a simple beginner-friendly Python project.
 
 ---
 
-## Author
+## 🚀 Learning Outcome
 
-Project created for the **File Operator** assignment using Python.
+Through this project, the following concepts are practiced:
+
+**File Handling → OOP → Exception Handling → User Input → Menu-Driven Programming**
+
+The project demonstrates how Python can be used to build a small real-world application using files and Object-Oriented Programming.
+
+---
+
+## 👨‍💻 Project
+
+**Personal Journal Manager**
+
+*Created as part of the Python File Operator assignment.*

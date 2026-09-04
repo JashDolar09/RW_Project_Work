@@ -1,9 +1,5 @@
 # 🌍 Global Happiness Report Analysis
 
-> **A beginner-friendly data analysis project exploring what factors are associated with happiness across 158 countries.**
-
----
-
 ## 📊 Project Overview
 
 The **Global Happiness Report Analysis** project uses Python to explore the 2015 World Happiness Report dataset.
@@ -117,16 +113,16 @@ The Top 10 countries were identified by sorting the dataset according to `Happin
 
 | Rank | Country | Happiness Score |
 |---:|---|---:|
-| 1 | 🇨🇭 Switzerland | **7.587** |
-| 2 | 🇮🇸 Iceland | **7.561** |
-| 3 | 🇩🇰 Denmark | **7.527** |
-| 4 | 🇳🇴 Norway | **7.522** |
-| 5 | 🇨🇦 Canada | **7.427** |
-| 6 | 🇫🇮 Finland | **7.406** |
-| 7 | 🇳🇱 Netherlands | **7.378** |
-| 8 | 🇸🇪 Sweden | **7.364** |
-| 9 | 🇳🇿 New Zealand | **7.286** |
-| 10 | 🇦🇺 Australia | **7.284** |
+| 1 | Switzerland | **7.587** |
+| 2 | Iceland | **7.561** |
+| 3 | Denmark | **7.527** |
+| 4 | Norway | **7.522** |
+| 5 | Canada | **7.427** |
+| 6 | Finland | **7.406** |
+| 7 | Netherlands | **7.378** |
+| 8 | Sweden | **7.364** |
+| 9 | New Zealand | **7.286** |
+| 10 | Australia | **7.284** |
 
 🥇 **Switzerland** has the highest Happiness Score in the 2015 dataset with a score of **7.587**.
 
@@ -394,10 +390,6 @@ Possible future improvements include:
 - Explore additional relationships between happiness factors.
 
 ---
-
-# 👨‍💻 Author
-
-**Dolar Jash**
 
 ### Project
 

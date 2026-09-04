@@ -233,5 +233,4 @@ This project demonstrates practical knowledge of:
 * Seaborn visualization
 * Data interpretation
 * Financial data exploration
-
 ---

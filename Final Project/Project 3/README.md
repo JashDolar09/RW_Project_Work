@@ -127,7 +127,7 @@ The Titanic dataset contained:
 
 **38.38%**
 
-This means that 38.38% of the passengers in the dataset survived.
+This means that 38.38% of the passenger in the dataset survived.
 
 ---
 

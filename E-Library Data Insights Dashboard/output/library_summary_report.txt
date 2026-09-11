@@ -1,0 +1,19 @@
+
+E-LIBRARY DATA INSIGHTS REPORT
+================================
+
+Total Transactions: 100
+Total Users: 14
+Total Books: 10
+Total Genres: 5
+
+Most Borrowed Book: Harry Potter
+Number of Borrowings: 16
+
+Average Borrowing Duration: 12.51 days
+
+Busiest Day: Sunday
+
+Late Returns: 33
+
+================================

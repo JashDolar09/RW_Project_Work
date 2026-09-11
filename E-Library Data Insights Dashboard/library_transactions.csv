@@ -1,0 +1,101 @@
+Transaction ID,Date,User ID,Book Title,Genre,Borrowing Duration (Days)
+1,2025-01-03,U001,The Alchemist,Fiction,7
+2,2025-01-05,U002,Atomic Habits,Self-Help,14
+3,2025-01-08,U003,Harry Potter,Fantasy,10
+4,2025-01-10,U004,The Great Gatsby,Fiction,6
+5,2025-01-12,U005,Rich Dad Poor Dad,Finance,12
+6,2025-01-15,U006,1984,Fiction,9
+7,2025-01-18,U007,Python Crash Course,Technology,18
+8,2025-01-21,U008,The Hobbit,Fantasy,11
+9,2025-01-23,U009,Think and Grow Rich,Self-Help,15
+10,2025-01-26,U010,The Psychology of Money,Finance,13
+11,2025-02-02,U001,Atomic Habits,Self-Help,10
+12,2025-02-04,U002,The Alchemist,Fiction,8
+13,2025-02-07,U003,Harry Potter,Fantasy,12
+14,2025-02-09,U011,Python Crash Course,Technology,20
+15,2025-02-11,U005,1984,Fiction,7
+16,2025-02-14,U012,Rich Dad Poor Dad,Finance,14
+17,2025-02-17,U006,The Hobbit,Fantasy,9
+18,2025-02-20,U007,Atomic Habits,Self-Help,16
+19,2025-02-23,U013,The Great Gatsby,Fiction,5
+20,2025-02-27,U008,The Psychology of Money,Finance,11
+21,2025-03-01,U009,Harry Potter,Fantasy,13
+22,2025-03-04,U001,The Alchemist,Fiction,9
+23,2025-03-07,U010,Python Crash Course,Technology,17
+24,2025-03-10,U002,Atomic Habits,Self-Help,12
+25,2025-03-13,U014,1984,Fiction,8
+26,2025-03-16,U003,The Hobbit,Fantasy,10
+27,2025-03-19,U005,Rich Dad Poor Dad,Finance,15
+28,2025-03-22,U011,The Psychology of Money,Finance,14
+29,2025-03-25,U006,Harry Potter,Fantasy,16
+30,2025-03-28,U012,The Great Gatsby,Fiction,6
+31,2025-04-02,U007,Atomic Habits,Self-Help,18
+32,2025-04-05,U013,The Alchemist,Fiction,7
+33,2025-04-08,U008,Python Crash Course,Technology,21
+34,2025-04-11,U009,The Hobbit,Fantasy,12
+35,2025-04-14,U001,Rich Dad Poor Dad,Finance,10
+36,2025-04-17,U010,Harry Potter,Fantasy,14
+37,2025-04-20,U002,1984,Fiction,9
+38,2025-04-23,U014,Atomic Habits,Self-Help,13
+39,2025-04-26,U003,The Psychology of Money,Finance,16
+40,2025-04-29,U005,The Great Gatsby,Fiction,5
+41,2025-05-01,U006,The Alchemist,Fiction,8
+42,2025-05-04,U011,Harry Potter,Fantasy,11
+43,2025-05-07,U007,Python Crash Course,Technology,19
+44,2025-05-10,U012,Atomic Habits,Self-Help,15
+45,2025-05-13,U008,The Hobbit,Fantasy,13
+46,2025-05-16,U009,Rich Dad Poor Dad,Finance,12
+47,2025-05-19,U013,1984,Fiction,7
+48,2025-05-22,U001,The Psychology of Money,Finance,17
+49,2025-05-25,U010,Harry Potter,Fantasy,15
+50,2025-05-28,U002,The Alchemist,Fiction,10
+51,2025-06-02,U003,Atomic Habits,Self-Help,14
+52,2025-06-05,U005,Python Crash Course,Technology,22
+53,2025-06-08,U006,The Hobbit,Fantasy,9
+54,2025-06-11,U007,Rich Dad Poor Dad,Finance,13
+55,2025-06-14,U011,Harry Potter,Fantasy,18
+56,2025-06-17,U012,1984,Fiction,8
+57,2025-06-20,U008,The Alchemist,Fiction,7
+58,2025-06-23,U013,The Psychology of Money,Finance,15
+59,2025-06-26,U009,Atomic Habits,Self-Help,16
+60,2025-06-29,U014,The Great Gatsby,Fiction,6
+61,2025-07-03,U001,Harry Potter,Fantasy,12
+62,2025-07-06,U002,Python Crash Course,Technology,20
+63,2025-07-09,U003,Atomic Habits,Self-Help,11
+64,2025-07-12,U005,The Alchemist,Fiction,9
+65,2025-07-15,U006,Rich Dad Poor Dad,Finance,14
+66,2025-07-18,U007,The Hobbit,Fantasy,10
+67,2025-07-21,U008,Harry Potter,Fantasy,17
+68,2025-07-24,U009,1984,Fiction,7
+69,2025-07-27,U010,The Psychology of Money,Finance,16
+70,2025-07-30,U011,Atomic Habits,Self-Help,13
+71,2025-08-02,U012,The Alchemist,Fiction,8
+72,2025-08-05,U013,Python Crash Course,Technology,18
+73,2025-08-08,U014,Harry Potter,Fantasy,14
+74,2025-08-11,U001,Rich Dad Poor Dad,Finance,12
+75,2025-08-14,U002,The Hobbit,Fantasy,11
+76,2025-08-17,U003,Atomic Habits,Self-Help,15
+77,2025-08-20,U005,1984,Fiction,9
+78,2025-08-23,U006,The Psychology of Money,Finance,13
+79,2025-08-26,U007,Harry Potter,Fantasy,19
+80,2025-08-29,U008,The Great Gatsby,Fiction,6
+81,2025-09-03,U009,The Alchemist,Fiction,10
+82,2025-09-06,U010,Atomic Habits,Self-Help,17
+83,2025-09-09,U011,Python Crash Course,Technology,21
+84,2025-09-12,U012,Harry Potter,Fantasy,16
+85,2025-09-15,U013,Rich Dad Poor Dad,Finance,14
+86,2025-09-18,U014,The Hobbit,Fantasy,12
+87,2025-09-21,U001,1984,Fiction,8
+88,2025-09-24,U002,The Psychology of Money,Finance,15
+89,2025-09-27,U003,Harry Potter,Fantasy,18
+90,2025-09-30,U005,Atomic Habits,Self-Help,13
+91,2025-10-03,U006,The Alchemist,Fiction,7
+92,2025-10-06,U007,Python Crash Course,Technology,20
+93,2025-10-09,U008,Harry Potter,Fantasy,15
+94,2025-10-12,U009,Rich Dad Poor Dad,Finance,11
+95,2025-10-15,U010,The Hobbit,Fantasy,9
+96,2025-10-18,U011,Atomic Habits,Self-Help,16
+97,2025-10-21,U012,1984,Fiction,8
+98,2025-10-24,U013,The Psychology of Money,Finance,14
+99,2025-10-27,U014,Harry Potter,Fantasy,17
+100,2025-10-30,U001,The Alchemist,Fiction,9

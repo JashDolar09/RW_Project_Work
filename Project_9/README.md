@@ -4,8 +4,6 @@
 
 Develop a comprehensive Sales Data Analysis and Visualization tool in Python using **Pandas, NumPy, Matplotlib and Seaborn**.
 
-> **Note:** This is **Project 9**, not part of the Final Project folder.
-
 ## Requirements Covered
 
 - CSV sales dataset

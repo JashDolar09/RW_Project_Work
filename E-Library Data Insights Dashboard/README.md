@@ -123,7 +123,7 @@ It checks:
 
 The project handles common data-quality problems using Pandas.
 
-The cleaning process includes:
+The cleaning process included:
 
 * Removing duplicate rows
 * Handling missing values

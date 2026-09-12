@@ -1,4 +1,4 @@
-Transaction ID,Date,User ID,Book Title,Genre,Borrowing Duration (Days)
+Transaction ID,Date,User ID,Book Title,Genre,Borrowing Duration  (Days)
 1,2025-01-03,U001,The Alchemist,Fiction,7
 2,2025-01-05,U002,Atomic Habits,Self-Help,14
 3,2025-01-08,U003,Harry Potter,Fantasy,10

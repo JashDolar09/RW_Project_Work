@@ -3,8 +3,6 @@
 CREATE DATABASE data_digger;
 USE data_digger;
 
--- 1. CUSTOMERS
-
 CREATE TABLE Customers (
     CustomerID INT PRIMARY KEY,
     Name VARCHAR(100),
@@ -55,8 +53,6 @@ WHERE Name = 'Alice';
 +------------+-------+-----------------+----------+
 1 row in set (0.00 sec)
 
-
--- 2. ORDERS
 
 CREATE TABLE Orders (
     OrderID INT PRIMARY KEY,
@@ -127,8 +123,6 @@ FROM Orders;
 1 row in set (0.00 sec)
 
 
--- 3. PRODUCTS
-
 CREATE TABLE Products (
     ProductID INT PRIMARY KEY,
     ProductName VARCHAR(100),
@@ -196,9 +190,6 @@ FROM Products;
 |            2500.00 |        400.00 |
 +--------------------+---------------+
 1 row in set (0.00 sec)
-
-
--- 4. ORDER DETAILS
 
 CREATE TABLE OrderDetails (
     OrderDetailID INT PRIMARY KEY,

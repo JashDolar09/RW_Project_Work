@@ -99,7 +99,7 @@ Stores the products and quantities included in each order.
 * Display all customers
 * Update customer address
 * Delete customer using `CustomerID`
-* Find customers named **Alice**
+* Find customer named **Alice**
 
 ### 🛒 Orders
 

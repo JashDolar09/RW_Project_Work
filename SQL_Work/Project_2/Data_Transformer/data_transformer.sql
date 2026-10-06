@@ -356,7 +356,7 @@ SELECT
 CustomerID,
 UPPER(FirstName) AS UpperFirstName,
 LOWER(LastName) AS LowerLastName
-FROM Customers;
+FROM Customers
 
 +------------+----------------+---------------+
 | CustomerID | UpperFirstName | LowerLastName |

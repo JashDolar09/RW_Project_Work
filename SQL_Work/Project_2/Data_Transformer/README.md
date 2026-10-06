@@ -81,7 +81,7 @@ The `CustomerID` column is connected to the Customers table using a foreign key.
 
 ### 👨‍💼 3. Employees
 
-The **Employees** table contains employee information.
+The **Employees** table contain employee information.
 
 **Columns:**
 

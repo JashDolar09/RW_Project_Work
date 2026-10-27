@@ -12,6 +12,19 @@
 
 ---
 
+---
+
+## 🎥 Project Explanation Video
+
+An explanation video has been prepared to demonstrate the Excel concepts learned during the course and their practical application in this project.
+
+The video covers Excel fundamentals, formulas and functions, data analysis techniques, and the three worksheets included in the project.
+
+Video File: "https://drive.google.com/drive/folders/18wGe6W9ZGPlHHM4pobHvB_TlZ-H_cHZL"
+
+---
+
+
 ## 👨‍💻 Project Overview
 
 This Excel project was created to practice essential Excel functions used for **data analysis, calculations, data lookup, and reporting**.

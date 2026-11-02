@@ -16,7 +16,7 @@
 
 An explanation video will be added after the project walkthrough is recorded. It will demonstrate the Excel techniques used in this project, the analysis performed, and the final dashboard.
 
-**Video Link:** Add the Project 2 explanation video link here.
+**Video Link:** "https://drive.google.com/file/d/1Ld2pSR0mGD1Mbwiklxz5mcyaoDfc8eDa/view?usp=sharing"
 
 ---
 

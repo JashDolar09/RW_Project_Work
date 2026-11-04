@@ -16,7 +16,7 @@
 
 An explanation video can be added here to demonstrate the Excel concepts learned during the course and their practical application in this project.
 
-**Video Link:** Add the Project Explanation Video link here after recording.
+Video Link: "https://drive.google.com/file/d/1qHzpUzq93fSlnxyQ8xM1vIZCmqijYlDI/view?usp=sharing"
 
 ---
 
